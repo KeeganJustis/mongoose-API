@@ -2,7 +2,7 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: moongoose-API
+      appname: mongoose-api
 machine:
   node:
     version: 8.9.4
