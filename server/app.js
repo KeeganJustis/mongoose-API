@@ -5,7 +5,8 @@ const bodyParser = require('body-parser');
 
 
 // mongoose.connect('mongodb://localhost/my-blog', { useMongoClient: true });
-mongoose.connect('mongodb://localhost/my-blog');
+// mongoose.connect('mongodb://localhost/my-blog');
+mongoose.connect('mongodb://KeeganJustis:12345@ds123919.mlab.com:23919/ocakj')
 
 mongoose.Promise = Promise;
 

@@ -13,12 +13,7 @@ router.get('/', (req, res) => {
 
 
 
-// router.get('/', (req, res) => {
-//     Blog
-//         .find()
-//         .then(blogs => res.status(200).json(blogs)
-//         .catch(err => res.status(500).send('An internal server error has occured')));
-// });
+
 
 
 router.get('/:id', (req, res) => {
