@@ -5,4 +5,4 @@ deployment:
       appname: moongoose-API
 machine:
   node:
-    version: 8.1.4
+    version: 8.9.4
